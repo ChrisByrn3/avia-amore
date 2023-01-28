@@ -70,4 +70,23 @@ main > * {
 
 /* media queries */
 
-/* YOUR CODE HERE */
+@media screen and (max-width: 768px)
+{
+  header{
+    
+    flex-wrap: wrap;
+    width: 200px;
+  }
+h1{
+  display: flex;
+  justify-self: flex-start;
+}
+nav{
+  display: flex;
+  justify-content: flex-start;
+  
+}
+.airplane-card{
+ width:auto
+}
+}
